@@ -22,6 +22,11 @@ export const ButtonIdiom = styled.button`
     img {
         width: 20px;
         height: 20px;
-        margin: 5px
+        margin-right: 6px
+     }
+
+     :active {
+        width: 127px;
+        height: 49px;
      }
 `;

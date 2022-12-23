@@ -9,6 +9,4 @@ export const HeaderSt = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
-    left: 0px;
-    top: 0px;
 `;
