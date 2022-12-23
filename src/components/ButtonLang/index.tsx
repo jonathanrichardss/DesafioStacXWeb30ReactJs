@@ -8,7 +8,8 @@ interface ButtonProps {
     click: () => any
 }
 
-
+//Componente de botão para trocar o titulo da página passando 
+//as características e eventos via props
 export function ButtonLang(props:ButtonProps) {
     return (
         <div onClick={() => props.click()}>
