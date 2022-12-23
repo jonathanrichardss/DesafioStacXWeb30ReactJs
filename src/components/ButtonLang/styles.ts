@@ -10,18 +10,18 @@ export const ButtonIdiom = styled.button`
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     text-align: start;
     font-size: 16px;
 
 
     p {
-        margin: 15px auto;
+        margin-left: 2px;
     }    
 
     img {
         width: 20px;
         height: 20px;
-        margin: auto 0;
+        margin: 5px
      }
 `;

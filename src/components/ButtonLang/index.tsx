@@ -1,24 +1,21 @@
-import { EventHandler } from "react"
 import { ButtonIdiom } from "./styles"
-import { LangContext } from "../contexts/langContext"
+
 
 
 interface ButtonProps {
     title: string,
     icon: string,
-    click: EventHandler<any>
+    click: () => any
 }
 
 
 export function ButtonLang(props:ButtonProps) {
     return (
-        <LangContext.Provider value={props.title}>
-        <div onClick={() => props.click(props.title)}>
+        <div onClick={() => props.click()}>
            <ButtonIdiom>
-                <img src={props.icon} alt="" />
+                <img src={props.icon} alt={`Logo país com idioma ${props.title}`} />
                 <p>{props.title}</p>
             </ButtonIdiom> 
         </div>
-        </LangContext.Provider>
     )
 }

@@ -17,7 +17,6 @@ export const HomeStyle = styled.div`
       padding: 0;
       box-sizing: border-box;
       display: flex;
-      border: 1px solid red;
       flex-direction: column;
       align-items: center; 
       color: #FFFF;
