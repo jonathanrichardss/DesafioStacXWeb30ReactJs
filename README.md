@@ -37,7 +37,7 @@ Projeto final do módulo WEB3.0 curso da StackX.
 
  
 
-![App Screenshot](./src/assets/public/tela_projeto.PNG)
+![App Screenshot](./public/tela_projeto.PNG)
 
  
 
